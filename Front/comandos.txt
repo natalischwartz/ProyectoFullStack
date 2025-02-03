@@ -1,0 +1,8 @@
+npm create vite 
+Elegir el nombre del proyecto
+elegir el framework (React)
+elegir el lenguaje (Javascript)
+Ingresar a la carpeta del proyecto cd nombredelacarpeta
+npm install (instala los modulos que trae por defecto)
+
+npm run dev (ejecutar)
