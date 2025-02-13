@@ -5,4 +5,10 @@ elegir el lenguaje (Javascript)
 Ingresar a la carpeta del proyecto cd nombredelacarpeta
 npm install (instala los modulos que trae por defecto)
 
-npm run dev (ejecutar)
+npm run dev (ejecutar el proyecto)
+
+npm i axios bootstrap react-router-dom
+
+https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css (en el index.html)
+//importamos bootstrap
+import 'bootstrap/dist/css/bootstrap.min.css'
