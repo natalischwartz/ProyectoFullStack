@@ -12,7 +12,7 @@ const ShowPost = () => {
   }, []);
 
   const getPosts = async () => {
-    const res = await axios.get(url);
+    const res = await axios.get(url);// llamada al backend
     setPosts(res.data);
   };
 
@@ -25,10 +25,13 @@ const ShowPost = () => {
     <div className="container">
       <div className="row">
         <div className="col">
-          <small>CREATE POST</small>
-          <Link to="/create" className="btn btn-primary mt-2 mb-2">
-            <i className="fas fa-plus"></i>
-          </Link>
+            <div className="header-container d-flex justify-content-center align-items-center gap-2">
+                <small>CREATE POST</small>
+                <Link to="/create" className="btn btn-primary mt-2 mb-2">
+                <i className="fas fa-plus"></i>
+                </Link>
+            </div>
+          
           <table className="table">
             <thead className="table-primary">
               <tr>
