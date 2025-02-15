@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev":"nodemon app.js"
+    "dev": "nodemon app.js"
   },
   "keywords": [
     "cors",
@@ -18,6 +18,7 @@
   "description": "Proyecto Full Stack",
   "dependencies": {
     "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
     "express": "^4.21.2",
     "mysql2": "^3.12.0",
     "nodemon": "^3.1.9",
