@@ -21,10 +21,15 @@ export const getAllPosts = async (req,res) =>{
 export const getPost = async (req,res) =>{
 
     try {
-        const post = await PostModel.findAll({
+        // const post = await PostModel.findAll({
+        //     where : {id:req.params.id}
+        // })
+        // res.json(post[0])
+        const post = await PostModel.findOne({
             where : {id:req.params.id}
         })
-        res.json(post[0])
+        // console.log(post)
+        res.json(post)
         
     } catch (error) {
         res.json({message: error.message})

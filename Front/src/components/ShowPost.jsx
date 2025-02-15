@@ -42,17 +42,17 @@ const ShowPost = () => {
             </thead>
             <tbody>
               {posts.map((post) => (
-                <tr key={post.id}>
+                <tr className="data-content" key={post.id}>
                   <td>{post.title}</td>
                   <td>{post.content}</td>
-                  <td>
+                  <td className="actions-content">
                     <Link to={`/edit/${post.id}`} className="btn btn-info">
                     <i className="fas fa-edit"></i>
                     </Link>
                     <button onClick={()=>{deletePost(post.id)}} className="btn btn-danger">
                         <i className="fas fa-trash"></i>
                     </button>
-                    </td>
+                  </td>
                 </tr>
               ))}
             </tbody>

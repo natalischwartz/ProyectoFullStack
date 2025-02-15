@@ -1,0 +1,13 @@
+
+.actions-content {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+td .btn {
+    display: flex;
+    width: 2rem;
+    justify-content: center;
+    align-items: center;
+}
