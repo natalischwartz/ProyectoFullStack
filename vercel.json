@@ -7,12 +7,12 @@
     },
     {
       "src": "Front/dist/**",
-      "use": "@vercel/static"
+      "use": "@vercel/static-build"
     }
   ],
   "routes": [
     {
-      "src": "/(.*)",
+      "src": "/api/(.*)",
       "dest": "Back/app.js"
     },
     {

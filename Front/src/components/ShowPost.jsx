@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 
 // Usar la variable de entorno para la URL del backend
 const url = import.meta.env.VITE_API_BASE_URL + "/posts";
+console.log(url)
 
 const ShowPost = () => {
   const [posts, setPosts] = useState([]);
