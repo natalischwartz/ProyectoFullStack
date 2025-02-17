@@ -15,7 +15,7 @@ app.use(cors())
 app.use(express.json())
 
 //Routes
-app.use("/posts",PostRouter)
+app.use("/api/posts",PostRouter)
 
 
 //chequeo conexion base de datos
