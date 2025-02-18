@@ -3,7 +3,7 @@ import { useState, useEffect } from "react";
 // console.log(useEffect)
 import { useNavigate, useParams } from "react-router-dom";
 
-const url = "http://localhost:8000/posts/";
+const url = "https://proyectofullstack-production.up.railway.app/posts/";
 
 const EditPost = () => {
   const [title, setTitle] = useState("");

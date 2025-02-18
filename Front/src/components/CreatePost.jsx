@@ -2,7 +2,7 @@ import axios from 'axios'
 import { useState} from 'react';
 import {useNavigate} from 'react-router-dom';
 
-const url = "http://localhost:8000/posts";
+const url = "https://proyectofullstack-production.up.railway.app/posts";
 
 const CreatePost = () =>{
 
